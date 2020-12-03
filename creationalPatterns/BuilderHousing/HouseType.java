@@ -1,0 +1,3 @@
+public enum HouseType {
+    CASTLE, CLASSICHOUSE, FANCYHOUSE, BUNGALOW, TENT
+}
