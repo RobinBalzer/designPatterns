@@ -1,3 +1,7 @@
+/**
+ * demo class for Prototype.
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,6 +10,12 @@ public class PrototypeDemo {
     public static void main(String[] args) {
         List<Tree> trees = new ArrayList<>();
         List<Tree> treesCopy = new ArrayList<>();
+
+        /**
+         *  We create birchTree, copy it (birchTree1),
+         *  We create oakTree,  copy it (oakTree1).
+         *  -> trees = [birchTree, birchTree1, oakTree, oakTree1]
+         */
 
         BirchTree birchTree = new BirchTree();
         birchTree.age = 20;
@@ -28,6 +38,15 @@ public class PrototypeDemo {
         compare(trees, treesCopy);
 
     }
+
+    /**
+     * @param trees original list of elements
+     * @param treesCopy copied list of elements
+     *
+     * We copy trees into treesCopy and compare trees(i) with treesCopy(i)
+     * and conclude with testing whether these copies are identical, yet different objects
+     * output via console..
+     */
 
     private static void compare(List<Tree> trees, List<Tree> treesCopy) {
         for (Tree tree : trees) {

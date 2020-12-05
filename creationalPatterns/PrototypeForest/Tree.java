@@ -1,3 +1,12 @@
+/**
+ * this is the prototype class
+ *
+ * including a copy (== clone) method.
+ * including a equals method that returns true if
+ *  (the object is as instanceof the prototype class) AND
+ *  (the properties of the object are equal to a freshly created copy)
+ */
+
 public abstract class Tree {
     public int age;
     public int height;

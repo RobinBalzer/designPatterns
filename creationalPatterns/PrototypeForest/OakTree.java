@@ -1,13 +1,17 @@
-public class OakTree extends Tree{
+/**
+ * concrete Class extending our Prototype class.
+ */
+
+public class OakTree extends Tree {
     public boolean hasOakResin;
 
-    public OakTree(){
+    public OakTree() {
 
     }
 
-    public OakTree(OakTree target){
+    public OakTree(OakTree target) {
         super(target);
-        if (target != null){
+        if (target != null) {
             this.hasOakResin = target.hasOakResin;
         }
     }
@@ -18,7 +22,7 @@ public class OakTree extends Tree{
     }
 
     @Override
-    public boolean equals(Object oakTreeObject){
+    public boolean equals(Object oakTreeObject) {
         if (!(oakTreeObject instanceof OakTree) || !super.equals(oakTreeObject)) return false;
         OakTree oakTreeCopy = (OakTree) oakTreeObject;
         return oakTreeCopy.hasOakResin == hasOakResin;

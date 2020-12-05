@@ -1,5 +1,8 @@
-public class BirchTree extends Tree {
+/**
+ * concrete Class extending our Prototype class.
+ */
 
+public class BirchTree extends Tree {
     public String type;
 
     public BirchTree() {
