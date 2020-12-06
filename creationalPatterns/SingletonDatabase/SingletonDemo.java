@@ -1,3 +1,9 @@
+/**
+ * demo class for singleton. Simply call getInstance twice.
+ * On first call,  the singleton object (database) should be created.
+ * On second call, we should not (!) get another object...
+ */
+
 public class SingletonDemo {
 
     public static void main(String[] args){
