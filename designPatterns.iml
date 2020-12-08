@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/creationalPatterns/PrototypeForest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/creationalPatterns/SingletonDatabase" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/creationalPatterns/SingletonDatabaseThreadSafe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StructuralPatterns/AdapterHoles" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
